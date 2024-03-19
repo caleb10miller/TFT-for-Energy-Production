@@ -1,0 +1,26 @@
+pull request to fix monotone_containts -> monotone_constraints. all over the place
+
+in https://github.com/jdb78/pytorch-forecasting/blob/master/pytorch_forecasting/models/temporal_fusion_transformer/sub_modules.py some dtypes are float some are float32 -> same thing but inconsistent
+
+in https://github.com/jdb78/pytorch-forecasting/blob/master/pytorch_forecasting/models/temporal_fusion_transformer/sub_modules.py line 87 it could just be nn.init not torch.nn
+
+figure out about timeseriesdataset 
+
+should probably figure out ^ first 
+
+figure out trainer
+https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/trainer/trainer.py
+
+trace shape of tensors though the tft, one step at a time. this probably should happen after I figure out how the timeseriesdataset work,
+before the pl trainer
+
+
+
+
+make get_config take a number to match model
+
+do quantile area on graphs
+
+figure out whats happening for predict 
+
+understand quantile loss
