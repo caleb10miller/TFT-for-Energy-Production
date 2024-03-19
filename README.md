@@ -5,9 +5,9 @@ This project analyzes power production data to identify energy consumption trend
 This project focuses on analyzing power production data from 2018 to the present, sourced from the EIA's API. It explores energy consumption patterns to inform stakeholders like power producers, consumers, and policymakers.
 
 ## Key Features
-**Data Analysis**: Extensive exploration of hourly energy consumption data, highlighting trends and shifts in energy types.
-**Modeling**: Use of the Temporal Fusion Transformer for accurate, multi-horizon time series forecasting.
-**Visualization**: Insightful visualizations to interpret data and model predictions.
+- **Data Analysis**: Extensive exploration of hourly energy consumption data, highlighting trends and shifts in energy types.
+- **Modeling**: Use of the Temporal Fusion Transformer for accurate, multi-horizon time series forecasting.
+- **Visualization**: Insightful visualizations to interpret data and model predictions.
 
 ## Technology Stack
 - **Data Processing and EDA**: Python, Jupyter Notebook
