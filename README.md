@@ -1,6 +1,12 @@
 # TFT-for-Energy-Production
 This project analyzes power production data to identify energy consumption trends using the Temporal Fusion Transformer model. It offers insights for producers, consumers, and policymakers through data processing and visualizations, documented in Jupyter Notebooks, focusing on strategic planning and environmental impact.
 
+## Team Members
+- Caleb Miller
+- Luke Chesley
+- Hashim Afzal
+- Lauren Miller
+  
 ## Overview
 This project focuses on analyzing power production data from 2018 to the present, sourced from the EIA's API. It explores energy consumption patterns to inform stakeholders like power producers, consumers, and policymakers.
 
@@ -34,8 +40,5 @@ jupyter notebook
 
 ## Contributing
 Contributions to improve the project or extend the analysis are welcome. Please follow the standard fork and pull request workflow.
-
-## Acknowledgements
-Thanks to Lauren Miller, Luke Chesley, Caleb Miller, and Hashim Afzal for their contributions to this project.
 
 For questions or further information, please reach out via caleb10miller@gmail.com.
